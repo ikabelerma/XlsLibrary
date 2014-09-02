@@ -4,7 +4,7 @@ Xls Library for Robot Framework
 Introduction
 ------------
 XlsLibrary is a library for reading (and soon, writing) spreadsheets saved as .xls files.
-If you're looking at reading .xlsx files, you might be looking for ExcelXLibrary_.
+If you're looking at reading .xlsx files, you might be looking for XlsxLibrary_.
 
 XlsLibrary is a Robot Framework wrapper for the Python-Excel_ packages (xlrd_ only at the moment) python package.
 
@@ -27,5 +27,5 @@ Just import XlsLibrary as a normal user library in your project. More informatio
 
 .. _xlrd: https://secure.simplistix.co.uk/svn/xlrd/trunk/xlrd/doc/xlrd.html?p=4966
 .. _Python-Excel: http://www.python-excel.org
-.. _ExcelXLibrary: https://github.com/ikabelerma/ExcelXLibrary
+.. _XlsxLibrary: https://github.com/ikabelerma/XlsxLibrary
 .. _Robot Framework User Guide: http://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#using-physical-path-to-library
