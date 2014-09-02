@@ -1,0 +1,12 @@
+*** Settings ***
+Library           ../XlsLibrary.py
+
+*** Test Cases ***
+Open Workbook
+    ${workbook}    Open Workbook    xls_files/my_workbook.xls
+    Log    ${workbook}
+
+Get Cell Value
+    ${workbook}    Open Workbook    xls_files/my_workbook.xls
+    ${cell_value}    Get Cell Value    ${workbook}    Sheet1    0    0
+    Log    ${cell_value}
